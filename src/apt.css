@@ -1,0 +1,18 @@
+.m{
+    width:250px;
+    background-color: #ffffff;
+    border: black;
+    border-radius: 30px;
+   
+}
+.star{
+   background-color: white !important; 
+   border:none !important;
+  height:30px;
+  width:80px;
+  text-align: center;
+  border-radius: 5px;
+  padding:auto;
+  font-weight: bold;
+  color: #ffffff;
+}
