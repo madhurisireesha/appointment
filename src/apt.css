@@ -1,8 +1,11 @@
 .m{
     width:250px;
     background-color: #ffffff;
-    border: black;
+    border-style:solid;
+    border-color:gray;
     border-radius: 30px;
+    margin-right:20px;
+    margin-bottom: 10px;
    
 }
 .star{
