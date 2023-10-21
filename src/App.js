@@ -2,12 +2,7 @@ import {Component} from 'react'
 import {v4 as uuidv4} from 'uuid'
 import './App.css'
 import Apt from './Apt.js'
-const list1=[{
-  //id:'',
-  //name:'',
-  //date:'',
-  //isFavourite:''
-}]
+const list1=[]
 class App extends Component{
   state={
     name:'',
