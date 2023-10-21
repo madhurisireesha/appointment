@@ -24,9 +24,7 @@ class App extends Component{
     const{name,date}=this.state
     const newapt={
       id:uuidv4(),
-      name,
-      date,
-      isFavourite:false
+      name,date, isFavourite:false
     }
    this.setState(prevState=>({
     list2:[...prevState.list2,newapt],
@@ -60,7 +58,7 @@ class App extends Component{
 
   render(){
     const{name,date,list2}=this.state
-   console.log(list2)
+   
     return(
       <div className='container'>
         <div className='middle'>
