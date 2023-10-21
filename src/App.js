@@ -3,10 +3,10 @@ import {v4 as uuidv4} from 'uuid'
 import './App.css'
 import Apt from './Apt.js'
 const list1=[{
-  id:'',
-  name:'',
-  date:'',
-  isFavourite:''
+  //id:'',
+  //name:'',
+  //date:'',
+  //isFavourite:''
 }]
 class App extends Component{
   state={
